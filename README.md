@@ -10,4 +10,5 @@ This is a Rundeck [Script Node Execution](https://docs.rundeck.com/docs/administ
 #### 2b. To set this as the Node Executor for individual nodes, add the following to the custom attributes of your node(s) definition:
     script-exec=/tmp/ssm_wrapper.sh ${node.instanceId} ${exec.command}
 #### 3. Make sure your Nodes have _instanceId_ as a Custom Attribute:
-![Screen Shot 2021-07-06 at 9 22 18 AM](https://user-images.githubusercontent.com/11511251/124634866-ac4b8800-de3b-11eb-8b6a-01a0b9df53fd.png | width=100)
+
+<img src="https://user-images.githubusercontent.com/11511251/124634866-ac4b8800-de3b-11eb-8b6a-01a0b9df53fd.png" width="500" height="500">
